@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2016",                       
+    "lib": ["DOM", "ESNext", "ES6"],
+    "module": "esnext",
+    "typeRoots": [
+      "src/types.ts"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,                                   
+    "types": [
+      "node"
+    ],
+    "skipLibCheck": true
+  },
+  "include": [
+    "src", "types.d.ts"
+  ]
+}
